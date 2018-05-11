@@ -1,0 +1,18 @@
+Training files:
+The program requires two training files, they are too large to upload on GitHub. Go to this link, download the files "fine-tuned-resnet50-weights.h5" and "model-resnet50.h5". Move files to "Final version Program/keras-transfer-learning/trained/".
+
+https://drive.google.com/drive/folders/1fMhVBXcE3F6_WkLMMFtt-sXz3IoohPgs?usp=sharing
+
+Our program is based on Jetson. Everything is working on remote control.
+
+Remote usage:
+
+(address: 98.232.186.42 port: 1337  username&password: ubuntu)
+
+ssh ubuntu@98.232.186.42 -p 1337
+(when require password)ubuntu
+
+If successfully login, go to Desktop/Program(cd Desktop/Program)
+First run "clean.py"(python clean.py)
+then run "main.py"(python main.py)
+Testing the Capture script by using "capture.py"(python capture.py), this script require camera setup
